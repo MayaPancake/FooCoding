@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Fredericka+the+Great|Indie+Flower|Krub|Leckerli+One|Londrina+Sketch|Love+Ya+Like+A+Sister|Zilla+Slab+Highlight&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Krub";
+  display: inline;
+  font-size: 40px;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}

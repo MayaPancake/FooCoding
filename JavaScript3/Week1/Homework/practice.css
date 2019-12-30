@@ -1,0 +1,10 @@
+.contributors-lists {
+  float: left;
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contributors-lists ul {
+  list-style: none;
+}
