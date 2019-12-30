@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Fredericka+the+Great|Indie+Flower|Krub|Leckerli+One|Londrina+Sketch|Love+Ya+Like+A+Sister|Zilla+Slab+Highlight&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  font-family: "Indie Flower";
+  display: inline;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: left;
+}
+
+.nav {
+  overflow: hidden;
+}
+
+.nav li {
+  list-style: none;
+  float: right;
+  text-align: center;
+  font-family: "Indie Flower";
+  margin: 0 100px 0 0;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.nav li:hover {
+  color: #c44569;
+  cursor: pointer;
+
+}
+
+.nav li.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h2 {
+  font-size: 70px;
+  font-family: 'Zilla Slab Highlight';
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: 'Londrina Sketch';
+  text-align: center;
+}
+
+h3:hover {
+  background: -webkit-linear-gradient(#c44569, #574b90, #303952);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-image {
+  height: 510px;
+  background-color: white;
+  /*background: url(images/imgwd2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+
+.row {
+  margin-top: 20px;
+  padding: 20px 10px
+}
+
+ul li {
+  list-style: none;
+}
+
+.art-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto
+}
+
+.art-item img {
+  display: block;
+  position: relative;
+  margin: 10px;
+  max-width: 25vw;
+  display: inline-block;
+  box-sizing: content-box;
+  filter: grayscale(100%);
+  opacity: .6;
+  transition: .6s;
+  box-sizing: inherit;
+}
+
+.art-item img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  margin-top: -5px;
+  box-shadow: 0px 18px 22px -15px rgba(0, 0, 0, .3);
+}
+
+/* .overlay {
+  position: relative;
+  bottom: 315px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+
+
+  color: #f1f1f1;
+  width: auto;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 50px;
+  padding: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.art-item:hover .overlay {
+  opacity: 1;
+} */
+
+.row .last {
+  font-family: 'Krub';
+  height: 73px;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: stretch;
+  float: right;
+}
+
+.one,
+.two {
+  font-size: 10px;
+}
+
+footer {
+  height: 400px;
+  font-family: 'Krub';
+  font-size: 10px;
+  background-color: #f1f2f6;
+}
+
+/* menu */
+.menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 70px;
+  height: 10px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+/* Setting up our grid */
+.container {
+  width: 100%;
+  /*Set the width of the entire website here */
+  margin-right: auto;
+  margin-left: auto;
+  /* Margin-left and right are set to auto to center the container */
+}
+
+.seven:first-child,
+.eight:first-child,
+.nine:first-child,
+.ten:first-child,
+.eleven:first-child,
+.five:first-child,
+.four:first-child,
+.three:first-child,
+.two:first-child,
+.one:first-child,
+.six:first-child {
+  margin-left: 0;
+  /* This line of code makes the left-most column align to the left of the screen */
+}
+
+.eleven {
+  width: 91.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.ten {
+  width: 83%;
+  float: left;
+  margin-left: 2%;
+}
+
+.nine {
+  width: 74.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.eight {
+  width: 66%;
+  float: left;
+  margin-left: 2%;
+}
+
+.seven {
+  width: 57.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.six {
+  width: 49%;
+  /* This div spans six columns (the entire row)*/
+  float: left;
+  margin-left: 2%;
+}
+
+.five {
+  width: 40.5%;
+  /* This div spans five columns */
+  margin-left: 2%;
+  float: left;
+}
+
+.four {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+.three {
+  width: 23.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.two {
+  width: 15%;
+  float: left;
+  margin-left: 2%;
+
+}
+
+.one {
+  width: 6.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.row {
+  width: 100%;
+  clear: both;
+  /* Clear creates new styles for the next row */
+  padding: 0px;
+  margin: 0px;
+}
