@@ -1,0 +1,15 @@
+.shoeDetails {
+  display: flex;
+}
+
+.shoes {
+  margin-right: 13px;
+}
+
+.shoeDetails img {
+  width: 480px;
+}
+
+p {
+  color: gray;
+}
